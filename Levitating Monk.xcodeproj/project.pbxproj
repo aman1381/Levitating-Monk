@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5716473F1E491458006A41FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574AEA171E468D8100050F8B /* Assets.xcassets */; };
+		571647401E491458006A41FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574AEA171E468D8100050F8B /* Assets.xcassets */; };
+		574AEA0B1E468D8100050F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AEA0A1E468D8100050F8B /* AppDelegate.swift */; };
+		574AEA0D1E468D8100050F8B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 574AEA0C1E468D8100050F8B /* GameScene.sks */; };
+		574AEA0F1E468D8100050F8B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 574AEA0E1E468D8100050F8B /* Actions.sks */; };
+		574AEA111E468D8100050F8B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AEA101E468D8100050F8B /* GameScene.swift */; };
+		574AEA131E468D8100050F8B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AEA121E468D8100050F8B /* GameViewController.swift */; };
+		574AEA161E468D8100050F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574AEA141E468D8100050F8B /* Main.storyboard */; };
+		574AEA181E468D8100050F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574AEA171E468D8100050F8B /* Assets.xcassets */; };
+		574AEA1B1E468D8100050F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574AEA191E468D8100050F8B /* LaunchScreen.storyboard */; };
+		574AEA261E468D8100050F8B /* Levitating_MonkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AEA251E468D8100050F8B /* Levitating_MonkTests.swift */; };
+		574AEA311E468D8100050F8B /* Levitating_MonkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574AEA301E468D8100050F8B /* Levitating_MonkUITests.swift */; };
+		57F93EA51E478A690078F235 /* powerchime.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57F93EA41E478A690078F235 /* powerchime.wav */; };
+		57F93EA71E4798F70078F235 /* theboldfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 57F93EA61E4798F70078F235 /* theboldfont.ttf */; };
+		57F93EA91E47AC4D0078F235 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F93EA81E47AC4D0078F235 /* GameOverScene.swift */; };
+		57F93EAB1E4808DA0078F235 /* bird.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57F93EAA1E4808DA0078F235 /* bird.wav */; };
+		57F93EAD1E4810CC0078F235 /* ground.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57F93EAC1E4810CC0078F235 /* ground.wav */; };
+		57F93EAF1E48222A0078F235 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F93EAE1E48222A0078F235 /* MainMenuScene.swift */; };
+		57F93EB11E482DD70078F235 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 57F93EB01E482DD60078F235 /* sound.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574AEA221E468D8100050F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574AE9FF1E468D8000050F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574AEA061E468D8000050F8B;
+			remoteInfo = "Levitating Monk";
+		};
+		574AEA2D1E468D8100050F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574AE9FF1E468D8000050F8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574AEA061E468D8000050F8B;
+			remoteInfo = "Levitating Monk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		574AEA071E468D8100050F8B /* Levitating Monk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Levitating Monk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574AEA0A1E468D8100050F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		574AEA0C1E468D8100050F8B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		574AEA0E1E468D8100050F8B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		574AEA101E468D8100050F8B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		574AEA121E468D8100050F8B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		574AEA151E468D8100050F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		574AEA171E468D8100050F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		574AEA1A1E468D8100050F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		574AEA1C1E468D8100050F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574AEA211E468D8100050F8B /* Levitating MonkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Levitating MonkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574AEA251E468D8100050F8B /* Levitating_MonkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levitating_MonkTests.swift; sourceTree = "<group>"; };
+		574AEA271E468D8100050F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574AEA2C1E468D8100050F8B /* Levitating MonkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Levitating MonkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574AEA301E468D8100050F8B /* Levitating_MonkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Levitating_MonkUITests.swift; sourceTree = "<group>"; };
+		574AEA321E468D8100050F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F93EA41E478A690078F235 /* powerchime.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = powerchime.wav; sourceTree = "<group>"; };
+		57F93EA61E4798F70078F235 /* theboldfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theboldfont.ttf; sourceTree = "<group>"; };
+		57F93EA81E47AC4D0078F235 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		57F93EAA1E4808DA0078F235 /* bird.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bird.wav; sourceTree = "<group>"; };
+		57F93EAC1E4810CC0078F235 /* ground.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ground.wav; sourceTree = "<group>"; };
+		57F93EAE1E48222A0078F235 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		57F93EB01E482DD60078F235 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sound.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574AEA041E468D8000050F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AEA1E1E468D8100050F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AEA291E468D8100050F8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574AE9FE1E468D8000050F8B = {
+			isa = PBXGroup;
+			children = (
+				574AEA091E468D8100050F8B /* Levitating Monk */,
+				574AEA241E468D8100050F8B /* Levitating MonkTests */,
+				574AEA2F1E468D8100050F8B /* Levitating MonkUITests */,
+				574AEA081E468D8100050F8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		574AEA081E468D8100050F8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574AEA071E468D8100050F8B /* Levitating Monk.app */,
+				574AEA211E468D8100050F8B /* Levitating MonkTests.xctest */,
+				574AEA2C1E468D8100050F8B /* Levitating MonkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574AEA091E468D8100050F8B /* Levitating Monk */ = {
+			isa = PBXGroup;
+			children = (
+				57F93EB01E482DD60078F235 /* sound.wav */,
+				574AEA0A1E468D8100050F8B /* AppDelegate.swift */,
+				574AEA0C1E468D8100050F8B /* GameScene.sks */,
+				574AEA0E1E468D8100050F8B /* Actions.sks */,
+				574AEA101E468D8100050F8B /* GameScene.swift */,
+				57F93EAE1E48222A0078F235 /* MainMenuScene.swift */,
+				57F93EAC1E4810CC0078F235 /* ground.wav */,
+				57F93EAA1E4808DA0078F235 /* bird.wav */,
+				57F93EA81E47AC4D0078F235 /* GameOverScene.swift */,
+				574AEA121E468D8100050F8B /* GameViewController.swift */,
+				57F93EA61E4798F70078F235 /* theboldfont.ttf */,
+				574AEA141E468D8100050F8B /* Main.storyboard */,
+				57F93EA41E478A690078F235 /* powerchime.wav */,
+				574AEA171E468D8100050F8B /* Assets.xcassets */,
+				574AEA191E468D8100050F8B /* LaunchScreen.storyboard */,
+				574AEA1C1E468D8100050F8B /* Info.plist */,
+			);
+			path = "Levitating Monk";
+			sourceTree = "<group>";
+		};
+		574AEA241E468D8100050F8B /* Levitating MonkTests */ = {
+			isa = PBXGroup;
+			children = (
+				574AEA251E468D8100050F8B /* Levitating_MonkTests.swift */,
+				574AEA271E468D8100050F8B /* Info.plist */,
+			);
+			path = "Levitating MonkTests";
+			sourceTree = "<group>";
+		};
+		574AEA2F1E468D8100050F8B /* Levitating MonkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				574AEA301E468D8100050F8B /* Levitating_MonkUITests.swift */,
+				574AEA321E468D8100050F8B /* Info.plist */,
+			);
+			path = "Levitating MonkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574AEA061E468D8000050F8B /* Levitating Monk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574AEA351E468D8100050F8B /* Build configuration list for PBXNativeTarget "Levitating Monk" */;
+			buildPhases = (
+				574AEA031E468D8000050F8B /* Sources */,
+				574AEA041E468D8000050F8B /* Frameworks */,
+				574AEA051E468D8000050F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Levitating Monk";
+			productName = "Levitating Monk";
+			productReference = 574AEA071E468D8100050F8B /* Levitating Monk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574AEA201E468D8100050F8B /* Levitating MonkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574AEA381E468D8100050F8B /* Build configuration list for PBXNativeTarget "Levitating MonkTests" */;
+			buildPhases = (
+				574AEA1D1E468D8100050F8B /* Sources */,
+				574AEA1E1E468D8100050F8B /* Frameworks */,
+				574AEA1F1E468D8100050F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574AEA231E468D8100050F8B /* PBXTargetDependency */,
+			);
+			name = "Levitating MonkTests";
+			productName = "Levitating MonkTests";
+			productReference = 574AEA211E468D8100050F8B /* Levitating MonkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		574AEA2B1E468D8100050F8B /* Levitating MonkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574AEA3B1E468D8100050F8B /* Build configuration list for PBXNativeTarget "Levitating MonkUITests" */;
+			buildPhases = (
+				574AEA281E468D8100050F8B /* Sources */,
+				574AEA291E468D8100050F8B /* Frameworks */,
+				574AEA2A1E468D8100050F8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574AEA2E1E468D8100050F8B /* PBXTargetDependency */,
+			);
+			name = "Levitating MonkUITests";
+			productName = "Levitating MonkUITests";
+			productReference = 574AEA2C1E468D8100050F8B /* Levitating MonkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574AE9FF1E468D8000050F8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Amandeep Singh";
+				TargetAttributes = {
+					574AEA061E468D8000050F8B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = GCVW7JEL8A;
+						ProvisioningStyle = Automatic;
+					};
+					574AEA201E468D8100050F8B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 574AEA061E468D8000050F8B;
+					};
+					574AEA2B1E468D8100050F8B = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 574AEA061E468D8000050F8B;
+					};
+				};
+			};
+			buildConfigurationList = 574AEA021E468D8000050F8B /* Build configuration list for PBXProject "Levitating Monk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 574AE9FE1E468D8000050F8B;
+			productRefGroup = 574AEA081E468D8100050F8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574AEA061E468D8000050F8B /* Levitating Monk */,
+				574AEA201E468D8100050F8B /* Levitating MonkTests */,
+				574AEA2B1E468D8100050F8B /* Levitating MonkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574AEA051E468D8000050F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F93EB11E482DD70078F235 /* sound.wav in Resources */,
+				574AEA161E468D8100050F8B /* Main.storyboard in Resources */,
+				57F93EAD1E4810CC0078F235 /* ground.wav in Resources */,
+				574AEA0D1E468D8100050F8B /* GameScene.sks in Resources */,
+				574AEA181E468D8100050F8B /* Assets.xcassets in Resources */,
+				57F93EA51E478A690078F235 /* powerchime.wav in Resources */,
+				574AEA1B1E468D8100050F8B /* LaunchScreen.storyboard in Resources */,
+				57F93EAB1E4808DA0078F235 /* bird.wav in Resources */,
+				574AEA0F1E468D8100050F8B /* Actions.sks in Resources */,
+				57F93EA71E4798F70078F235 /* theboldfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AEA1F1E468D8100050F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5716473F1E491458006A41FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AEA2A1E468D8100050F8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571647401E491458006A41FF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574AEA031E468D8000050F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F93EAF1E48222A0078F235 /* MainMenuScene.swift in Sources */,
+				574AEA111E468D8100050F8B /* GameScene.swift in Sources */,
+				574AEA131E468D8100050F8B /* GameViewController.swift in Sources */,
+				57F93EA91E47AC4D0078F235 /* GameOverScene.swift in Sources */,
+				574AEA0B1E468D8100050F8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AEA1D1E468D8100050F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574AEA261E468D8100050F8B /* Levitating_MonkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574AEA281E468D8100050F8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574AEA311E468D8100050F8B /* Levitating_MonkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574AEA231E468D8100050F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574AEA061E468D8000050F8B /* Levitating Monk */;
+			targetProxy = 574AEA221E468D8100050F8B /* PBXContainerItemProxy */;
+		};
+		574AEA2E1E468D8100050F8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574AEA061E468D8000050F8B /* Levitating Monk */;
+			targetProxy = 574AEA2D1E468D8100050F8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		574AEA141E468D8100050F8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574AEA151E468D8100050F8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		574AEA191E468D8100050F8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574AEA1A1E468D8100050F8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574AEA331E468D8100050F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574AEA341E468D8100050F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574AEA361E468D8100050F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GCVW7JEL8A;
+				INFOPLIST_FILE = "Levitating Monk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ekjot.levis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574AEA371E468D8100050F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GCVW7JEL8A;
+				INFOPLIST_FILE = "Levitating Monk/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ekjot.levis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		574AEA391E468D8100050F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Levitating MonkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aman.Levitating-MonkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Levitating Monk.app/Levitating Monk";
+			};
+			name = Debug;
+		};
+		574AEA3A1E468D8100050F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Levitating MonkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aman.Levitating-MonkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Levitating Monk.app/Levitating Monk";
+			};
+			name = Release;
+		};
+		574AEA3C1E468D8100050F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Levitating MonkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aman.Levitating-MonkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Levitating Monk";
+			};
+			name = Debug;
+		};
+		574AEA3D1E468D8100050F8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Levitating MonkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Aman.Levitating-MonkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Levitating Monk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574AEA021E468D8000050F8B /* Build configuration list for PBXProject "Levitating Monk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574AEA331E468D8100050F8B /* Debug */,
+				574AEA341E468D8100050F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574AEA351E468D8100050F8B /* Build configuration list for PBXNativeTarget "Levitating Monk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574AEA361E468D8100050F8B /* Debug */,
+				574AEA371E468D8100050F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574AEA381E468D8100050F8B /* Build configuration list for PBXNativeTarget "Levitating MonkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574AEA391E468D8100050F8B /* Debug */,
+				574AEA3A1E468D8100050F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574AEA3B1E468D8100050F8B /* Build configuration list for PBXNativeTarget "Levitating MonkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574AEA3C1E468D8100050F8B /* Debug */,
+				574AEA3D1E468D8100050F8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 574AE9FF1E468D8000050F8B /* Project object */;
+}
